@@ -1,7 +1,7 @@
 import {Boxes, Newspaper, History, BanknoteArrowUp, Users, Menu} from 'lucide-react'
 
 const NavBar = () => {
-	return <nav className="group flex flex-col gap-20 m-2 pr-5 pt-5 w-14 hover:w-64 transition-all duration-300 ease-in-out overflow-hidden rounded-lg">
+	return <nav className="ml-5 group flex flex-col gap-20 m-2 pr-5 pt-5 w-14 hover:w-64 transition-all duration-300 ease-in-out overflow-hidden rounded-lg">
 		<div className="flex items-center gap-4 px-1">
         		<Menu className="shrink-0" />
         		<span className="text-3xl whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">
