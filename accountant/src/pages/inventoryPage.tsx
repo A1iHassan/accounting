@@ -80,6 +80,19 @@ const InventoryPage = () => {
 		        <li className="px-5 py-2 hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">الكمية</li>
 		    </ul>
 		</div>
+		<div className="relative group">
+		    <span className="flex gap-2 items-center px-5 py-2 h-fit text-lg border-1 rounded-lg group-hover:rounded-b-none
+		    		     hover:bg-black hover:text-white transition-all duration-300 cursor-pointer
+		    "><ChevronDown />العملة</span>
+		    <ul 
+		        className="absolute top-11 opacity-0 pointer-events-none transition-all duration-300 delay-200 group-hover:opacity-100
+				   group-hover:pointer-events-auto w-full bg-white/100  border-1 rounded-b-xl
+			">
+		        <li className="border-b px-5 py-2 hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">دولار</li>
+		        <li className="border-b px-5 py-2 hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">ليرة سورية</li>
+		        <li className="px-5 py-2 hover:bg-black hover:text-white transition-all duration-300 cursor-pointer">ليرة تركية</li>
+		    </ul>
+		</div>
 		<Play 
 		    onMouseEnter={(e) => {e.currentTarget.setAttribute("fill", "black")}}
 		    onMouseLeave={(e) => {e.currentTarget.setAttribute("fill", "white")}}
