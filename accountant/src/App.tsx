@@ -1,5 +1,6 @@
 import NavBar from './components/navBar'
-import InventoryPage from './pages/inventoryPage'
+// import InventoryPage from './pages/inventoryPage'
+import NewInvoicePage from './pages/newInvoicePage'
 
 function App() {
 
@@ -7,7 +8,8 @@ function App() {
     <main className='h-dvh overflow-hidden flex'>
       <NavBar />
       <div className='flex-1 overflow-y-auto p-2'>
-      	<InventoryPage />
+      { /* <InventoryPage /> */ }
+      <NewInvoicePage />
       </div>
     </main>
   )
