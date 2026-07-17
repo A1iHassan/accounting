@@ -10,6 +10,16 @@ const NewInvoicePage = () => {
 		      <input className="ring-none px-3 py-1 border border-slate-300 rounded-lg focus:border-slate-500 outline-none w-2/3" type="text" placeholder="أدخل قيمة الضرائب الإضافية (إن وجدت)"/>
 		      <input className="ring-none px-3 py-1 border border-slate-300 rounded-lg focus:border-slate-500 outline-none w-2/3" type="text" placeholder="أدخل السعر الإجمالي"/>
 		      <input className="ring-none px-3 py-1 border border-slate-300 rounded-lg focus:border-slate-500 outline-none w-2/3" type="text" placeholder="أدخل اسم العميل"/>
+		      <button
+		          className="mt-8 border rounded-lg px-5 py-2 text-lg hover:bg-black/70 hover:text-white/100 cursor-pointer transition-all duration-300"
+		          onClick={() => {}}>
+			  تأكيد و حفظ
+		      </button>
+		      <button
+		          className="border rounded-lg px-5 py-1 text-lg hover:bg-black/70 hover:text-white/100 cursor-pointer transition-all duration-300"
+		          onClick={() => {}}>
+			  إلغاء
+		      </button>
 		  </form> 
 	       </div>
 }
