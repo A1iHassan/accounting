@@ -1,5 +1,6 @@
 const NewInvoicePage = () => {
-	return <div className="flex items-center justify-center h-full">
+	return <div className="flex flex-col items-center justify-center h-full">
+		  <h2 className="text-3xl self-start -translate-x-100 m-5">فاتورة جديدة</h2>
 		  <form className="flex flex-col items-center justify-center gap-4 border rounded-xl p-5 w-1/2 h-1/2">
 		  {/* item name be a search field that shows the available items in the inventory. 
 		      total price should be auto calculated from the single item price and the total count, and it should apply any taxes if available
